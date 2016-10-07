@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:padding="10dp">
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/icon_done"
+        android:id="@+id/ivDone"/>
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:paddingTop="16dp"
+        android:src="@drawable/pack_v4"
+        android:id="@+id/ivIconPack"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif"
+        android:id="@+id/tvVersionPack"
+        android:layout_below="@id/ivIconPack"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif"
+        android:id="@+id/tvCost"
+        android:layout_below="@id/tvVersionPack"
+        android:gravity="center_horizontal"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:padding="9dp"
+        android:background="@android:color/black"
+        android:id="@+id/ivToolbar"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvOrderInfo"
+        android:layout_below="@id/ivToolbar"
+        android:paddingTop="20dp"
+        android:paddingLeft="16dp"
+        android:layout_margin="16dp"
+        android:fontFamily="sans-serif"
+        style="@style/MyTextStyle"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin= "16dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/orangeAccent"
+        android:id="@+id/btnPayNow"
+        android:text="@string/pay_now"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnPayNow"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/btnPayCash"
+        android:text="@string/pay_cash"
+        android:background="@color/orangeAccent"
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Mr_iWash</string>
+    <string name="book_now">Book now</string>
+    <string name="auto">Auto</string>
+    <string name="motorcycle">Motorcycle</string>
+    <string name="truck">Truck</string>
+    <string name="sedan">Sedan</string>
+    <string name="suv">SUV</string>
+    <string name="minivan">Minivan</string>
+    <string name="v4">V4</string>
+    <string name="v6">V6</string>
+    <string name="v8">V8</string>
+    <string name="v12">V12</string>
+    <string name="pack">Package</string>
+    <string name="add_your_info">Add your Info</string>
+    <string name="full_name">Full Name *</string>
+    <string name="date_time">Date &amp; Time</string>
+    <string name="e_mail">E-mail *</string>
+    <string name="phone">Phone No *</string>
+    <string name="address">Address *</string>
+    <string name="apartment">Apartment No/Floor</string>
+    <string name="city">City *</string>
+    <string name="leave_message">Feel free to leave us a message</string>
+    <string name="back">Back</string>
+    <string name="confirm">Confirm</string>
+    <string name="pay_now">Pay now</string>
+    <string name="pay_cash">Pay cash</string>
+    <string name="fill_form">Please, fill all fields of the form</string>
+    <string name="s_pref">iWash_Pref</string>
+    <string name="choose_date">Please, choose correct date and time</string>
+    <string name="choose_time">Please, choose a time from 9:00 to 21:00</string>
+    <string name="email_iwash">schetckina.irina@yandex.ua</string>
+    <string name="subject_email_user">Mr.iWash - your order accept</string>
+    <string name="subject_email_iwash">New order</string>
+    <string name="payment_info">Payment info:</string>
+    <string name="pay_time">Time - </string>
+    <string name="pay_id">Pay id - </string>
+    <string name="state">State - </string>
+    <string name="new_order">You have a new order.</string>
+
+</resources>
